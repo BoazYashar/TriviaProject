@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [SuiteF]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="TestF(failed)">
+    <classes>
+      <class name="Tests.FunctionalityTests">
+        <methods>
+          <include name="errorHandling51Chars"/>
+          <include name="errorHandling31CharsInAnswer"/>
+          <include name="errorHandlingHeb"/>
+          <include name="quitTheTriviaGame"/>
+          <include name="errorHandling51CharsInQuestion"/>
+          <include name="afterEachTest"/>
+          <include name="autoAddingQuestionMark"/>
+          <include name="backToThePreviousPageOne"/>
+          <include name="bounderValuesMin"/>
+          <include name="backToThePreviousPageTwo"/>
+          <include name="bounderValuesMax"/>
+        </methods>
+      </class> <!-- Tests.FunctionalityTests -->
+    </classes>
+  </test> <!-- TestF(failed) -->
+</suite> <!-- Failed suite [SuiteF] -->
